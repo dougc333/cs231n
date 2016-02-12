@@ -22,7 +22,7 @@ class L1Distance(object):
         y_train is 10k labels in integer form we have to correlate the int to a list position in meta_batch
         y_test is what we are supposed to label  
         '''
-        os.chdir('/Users/dc/cs231n/assignment1')
+        os.chdir('/var/lib/jenkins/jobs/PythonTest/workspace/assignment1')
         
     def train(self,x,y):
         '''
@@ -51,7 +51,7 @@ class L1Distance(object):
         return Ypred
         
 a= L1Distance()
-cifar10_dir = '/Users/dc/Downloads/assignment1/cs231n/datasets/cifar-10-batches-py' 
+cifar10_dir = '/root/cs231n/assignment1/cs231n/datasets/cifar-10-batches-py/' 
 X_train, y_train, X_test, y_test = load_CIFAR10(cifar10_dir)
 print 'X_train shape:', X_train.shape
 print 'y_train shape:', y_train.shape
