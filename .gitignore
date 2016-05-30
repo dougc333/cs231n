@@ -1,0 +1,6 @@
+assignment1/
+assignment1/*.swp
+assignment1/*.pyc
+assignment1/.env/*
+assignment1/cs231/datasets/cifar-10-batches-py/*
+
