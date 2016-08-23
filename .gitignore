@@ -8,6 +8,7 @@ venv/bin/*
 venv/include/*
 venv/lib/*
 venv/pip-selfcheck.json
+venv/share/man/man1/*
 
 notMNIST_large/*
 notMNIST_small/*
