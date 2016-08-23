@@ -4,3 +4,11 @@ assignment1/*.pyc
 assignment1/.env/*
 assignment1/cs231/datasets/cifar-10-batches-py/*
 
+venv/bin/*
+venv/include/*
+venv/lib/*
+venv/pip-selfcheck.json
+
+notMNIST_large/*
+notMNIST_small/*
+*.tar.gz
