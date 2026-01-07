@@ -45,9 +45,37 @@ print(C.shape)
 --------------
 (10, 3, 5)
 ```
-5) The original numpy.pages from 10y ago doesn't cover broadcasting or np.dot() which are necessary for pytorch batch NN. 
-6) the issue with softmax() is the performance hit a transpose causes. Added transpose document.  
-7) Probability review. Joint, Conditional and Marginal Probabilities and implications for NN> 
+5) np.dot() doesn't broadcast! do not use. 
+   ```
+ np.dot() doesnt broadcase
+# * and @ are not the same for more than 2 dims because of broadcasting. np.dot() doesnt broadcast but @ does.
+# np.dot considered legacy.
+
+a = np.random.rand(3,4,2)
+b = np.random.rand(2,4)
+d = np.dot(a,b)
+e = a@b
+print('-----------')
+print(d==e)
+-----------
+[[[ True  True  True  True]
+  [ True  True  True False]
+  [ True  True  True  True]
+  [ True False  True  True]]
+
+ [[ True  True  True  True]
+  [False  True  True False]
+  [ True  True  True  True]
+  [False False  True  True]]
+
+ [[ True  True  True  True]
+  [False  True  True False]
+  [ True  True  True  True]
+  [ True  True  True  True]]]
+   ```
+The result should be all True.
+7) the issue with softmax() is the performance hit a transpose causes. Added transpose document.  
+8) Probability review. Joint, Conditional and Marginal Probabilities and implications for NN> 
 
 
 
