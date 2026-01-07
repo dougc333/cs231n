@@ -17,7 +17,7 @@ ln -s  /usr/local/cuda-12.4 /etc/alternatives/cuda
 nvcc --version 
 ```
 
-2) setup notes for distributed T4 gcloud setup with Kubernetes. Other forms of provisioning won't work. 
+2) setup notes for distributed T4 gcloud setup with Kubernetes. Other forms of provisioning won't work, ie requesting a T4 instance from ease1-f will give out of resources messages. They confgured the cluster so you can only get T4 through GKE. 
 3) Numpy and Pytorch broadcasting for hw1.
 4) The original numpy.pages from 10y ago doesn't cover broadcasting or np.dot() which are necessary for pytorch batch NN. 
 
