@@ -40,6 +40,10 @@ B = np.ones((1, 4, 5))
 
 C = A @ B
 print(C.shape)
+
+(3,) (1,)
+--------------
+(10, 3, 5)
 ```
 5) The original numpy.pages from 10y ago doesn't cover broadcasting or np.dot() which are necessary for pytorch batch NN. 
 6) the issue with softmax() is the performance hit a transpose causes. Added transpose document.  
