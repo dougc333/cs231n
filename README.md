@@ -71,7 +71,7 @@ print(d==e)
 ```
 The result should be all True.
 
-7) the issue with softmax() is the performance hit a transpose causes. Added transpose document.  
+7) the issue with softmax() is the performance hit a transpose causes. TBD, Transpose tiling + add distributed scatter, scattergather. 
 8) Probability review. Joint, Conditional and Marginal Probabilities and implications for NN> 
 
 
