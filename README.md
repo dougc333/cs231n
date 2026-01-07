@@ -46,7 +46,7 @@ print(C.shape)
 (10, 3, 5)
 ```
 
-5) np.dot() doesn't broadcast! do not use. 
+5) np.dot() doesn't broadcast! do not use. np.dot() supports both dot product and matrix mul. If it doesn't support broadcast then the matmul is broken for some data. Data dependent error. np.dot(a,b) != a@b
 ```
 a = np.random.rand(3,4,2)
 b = np.random.rand(2,4)
