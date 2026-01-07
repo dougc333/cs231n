@@ -47,7 +47,7 @@ print(C.shape)
 ```
 
 5) np.dot() doesn't broadcast! do not use. 
-   ```
+```
 a = np.random.rand(3,4,2)
 b = np.random.rand(2,4)
 d = np.dot(a,b)
@@ -68,7 +68,7 @@ print(d==e)
   [False  True  True False]
   [ True  True  True  True]
   [ True  True  True  True]]]
-   ```
+```
 The result should be all True.
 7) the issue with softmax() is the performance hit a transpose causes. Added transpose document.  
 8) Probability review. Joint, Conditional and Marginal Probabilities and implications for NN> 
