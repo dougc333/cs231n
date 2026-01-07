@@ -45,6 +45,7 @@ print(C.shape)
 --------------
 (10, 3, 5)
 ```
+
 5) np.dot() doesn't broadcast! do not use. 
    ```
 a = np.random.rand(3,4,2)
@@ -52,7 +53,7 @@ b = np.random.rand(2,4)
 d = np.dot(a,b)
 e = a@b
 print(d==e)
------------
+
 [[[ True  True  True  True]
   [ True  True  True False]
   [ True  True  True  True]
