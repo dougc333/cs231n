@@ -2,7 +2,7 @@ cs231n
 
 Updated 2025: 
 
-1) colab_cuda_nemo.ipynb shows nvidia nemo working in colab which required updating the cuda drivers. Running nvidia-smi returns v12.5 and nvcc --version returns v12.4. To align both of these version you have to reinstall the cuda drivers and redo the symlinks with this code
+1) colab_cuda_nemo.ipynb shows nvidia nemo working in colab which required updating the cuda drivers. Running nvidia-smi returns v12.5 and nvcc --version returns v12.4. To align both of these version you have to reinstall the cuda drivers and redo the symlinks with this code. Nemo presents other problems besides cuda driver versions. Have to install teh github Mamba state space repo; and there are plethora of error messages for the unmaintained Mamba github; but it works. 
 ```
 apt-get update && apt-get upgrade
 apt-get install emacs
