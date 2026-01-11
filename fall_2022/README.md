@@ -3,6 +3,11 @@
 There are 8 homeworks, each within their corresponding subfolder. Each homework is worth 10% of the total grade for the quarter.
 
 Homework 0 (Basics)
+This is ok, old. For undergrads. The rotate matrix derivation isn't relevant. 
+Needs additions to be relevant
+
+Add broadcasting 
+Add Colab GPU
 
 Homework 1 (Cameras)
 
