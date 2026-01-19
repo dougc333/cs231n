@@ -1,5 +1,12 @@
 # CS131 Fall 2022 Homework
 
+
+Setup, this dir was copied to /content/drive/MyDrive/Colab Notebooks
+Each folder was uploaded to the CN folder and the .ipynb was moved out of the hw0 folder so colab coould recognize it was there
+then hw0.ipynb was downloaded via browser and copied to mac copy repo. 
+
+
+
 There are 8 homeworks, each within their corresponding subfolder. Each homework is worth 10% of the total grade for the quarter.
 
 Homework 0 (Basics)
